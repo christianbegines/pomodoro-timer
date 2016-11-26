@@ -7,5 +7,4 @@ export class HeroServicio {
     getHeroes():Promise<Hero[]> {
       return Promise.resolve(HEROES);
     }
-
 }
