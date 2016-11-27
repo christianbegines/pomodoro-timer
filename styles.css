@@ -2,3 +2,39 @@ html{
   color: #369;
   font-family:  fantasy;
 }
+ul{
+  list-style: none;
+}
+.menu-principal{
+  text-decoration: none;
+  color:#1a7de0;
+  padding: 10px;
+
+}
+.menu-principal:hover{
+  border:2px solid #336699;
+  border-radius: 15px;
+  background-color:#336699;
+  color:white;
+
+}
+.boton-dashboard{
+   outline:0;
+   background-color: #336699;;
+   border:1px solid #336699;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin-right: 20px;
+   border-radius: 10px;
+   color:white;
+}
+.boton-dashboard:hover{
+  background-color:white;
+  color:#336699;
+}
+
+.listado-items{
+  display: inline-block;
+  text-decoration: none;
+
+}

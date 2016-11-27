@@ -6,8 +6,8 @@ import { HeroesComponent} from './heroes.component';
   template: `
   <h1>{{title}}</h1>
   <nav>
-    <a routerLink="/dashboard">DashBoard</a>
-    <a routerLink="/heroes">Heroes</a>
+    <a class="menu-principal" routerLink="/dashboard">DashBoard</a>
+    <a class="menu-principal" routerLink="/heroes">Heroes</a>
   </nav>
   <router-outlet></router-outlet>
   `
